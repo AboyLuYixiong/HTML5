@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: auto;
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#headerContent{
+    width: 75%;
+    margin: auto;
+}
+#title{
+    width: 100%;
+    height: 115px;
+    color: #fff;
+    font-size: 80px;
+    border-bottom: 2px solid #fff;
+}
+
+.nav{
+    height: 70px;
+    width: 94%;
+    margin: auto;
+}
+
+.nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-link{
+    padding: 0;
+    padding-top: 15px;
+    border-radius: 0;
+}
+
+.active{
+    color: rgb(255, 200, 50) !important;
+    border-top: 2px solid rgb(255, 200, 50) !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color:transparent;
+    border-radius: 0;
+}
+
+.about-info{
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 48px;
+}
+
+.about-info h1{
+    font-size: 60px;
+    color: #6E6E6E;
+    font-size: 4em;
+}
+.about-info p{
+    color: #B2B2B2;
+    font-size: 0.9em;
+    margin-top: 1em;
+}
+.about-top-grid h4{
+    font-size: 16px;
+    font-weight: bolder;
+    line-height: 1.5em;
+}
+.about-top-grid p{
+    font-size: 0.9em;
+    color: #B2B2B2;
+    margin-top: 1em;
+    line-height: 1.8em;
+}
+.about-top-grid img{
+    width: 350px;
+    height: 262px;
+}
+.about-team{
+    margin-top: 48px !important;
+    background-color: #FFCC33 !important;
+    padding: 48px 0 !important;
+}
+.about-team h1{
+    font-size: 64px;
+    text-align: center;
+    color: white;
+    margin-bottom: 48px;
+}
+
+
+.team-grid img{
+    width: 255px;
+    height: 255px;
+}
+.team-grid h6 ,p{
+    color: white;
+}
+.about-bottom h1{
+    font-size: 4em;
+    color: #6E6E6E;
+    text-align: center;
+    margin-bottom: 48px;
+    margin-top: 48px;
+    letter-spacing: 2px;
+}
+.bottom-grids p{
+    font-size: 14.4px;
+}
+
+.bottom-grids{
+    width: 88%;
+    margin: auto;
+}
+
+.bottom-grid-left p, .bottom-grid-right p{
+    color: #B2B2B2 !important;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    margin-top: 2em;
+}
+
+.about-top{
+    width: 75%;
+    margin: auto;
+}
+
+.team-grids{
+    width: 88%;
+    margin: auto;
+}
+
+.team-grid h6{
+    font-weight: 600;
+    margin: 1em 0 1em 0;
+}
+
+.team-grid p{
+    font-size: 0.9em;
+    line-height: 1.8em;
+}
+
+
+#backToTop{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    right: 5px;
+}
+
+#backToTop:hover{
+    cursor: pointer;
+}
